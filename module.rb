@@ -46,6 +46,5 @@ post = Blog::Post.new author: "shakesp",
 post.insert_random_comment
 post.insert_random_comment
 post.insert_random_comment
-post.insert_random_comment
 
 post.comments.each { |c| c.tweet }
